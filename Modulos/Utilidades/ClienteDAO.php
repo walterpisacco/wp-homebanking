@@ -896,7 +896,7 @@ public function BuscarTopic($usuario,$clientBroker){
 	  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 	  CURLOPT_CUSTOMREQUEST => "POST",
 	  CURLOPT_HTTPHEADER => array(
-	    "Authorization: Basic YWRtaW46R2xvYmFsKjM1MjI="
+	    "Authorization: Basic ="
 	  ),
 	));
 	$response = curl_exec($curl);
