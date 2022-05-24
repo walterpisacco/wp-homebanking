@@ -1,0 +1,104 @@
+input[type="submit"].dokan-btn-theme, a.dokan-btn-theme, .dokan-btn-theme {
+background: rgba(135,160,14,1);
+background: -moz-linear-gradient(top, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(135,160,14,1)), color-stop(100%, rgba(181,193,118,1)));
+background: -webkit-linear-gradient(top, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+background: -o-linear-gradient(top, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+background: -ms-linear-gradient(top, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+background: linear-gradient(to bottom, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87a00e', endColorstr='#b5c176', GradientType=0 );
+}
+.woocommerce-MyAccount-navigation-link > a {
+background: rgba(135,160,14,1);
+background: -moz-linear-gradient(top, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(135,160,14,1)), color-stop(100%, rgba(181,193,118,1)));
+background: -webkit-linear-gradient(top, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+background: -o-linear-gradient(top, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+background: -ms-linear-gradient(top, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+background: linear-gradient(to bottom, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87a00e', endColorstr='#b5c176', GradientType=0 );
+}
+.woocommerce .woocommerce-error .button, .woocommerce .woocommerce-info .button, .woocommerce .woocommerce-message .button, .woocommerce-page .woocommerce-error .button, .woocommerce-page .woocommerce-info .button, .woocommerce-page .woocommerce-message .button {
+background: rgba(135,160,14,1);
+background: -moz-linear-gradient(top, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(135,160,14,1)), color-stop(100%, rgba(181,193,118,1)));
+background: -webkit-linear-gradient(top, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+background: -o-linear-gradient(top, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+background: -ms-linear-gradient(top, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+background: linear-gradient(to bottom, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87a00e', endColorstr='#b5c176', GradientType=0 );
+}
+.dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li a {
+background: rgba(135,160,14,1);
+background: -moz-linear-gradient(top, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(135,160,14,1)), color-stop(100%, rgba(181,193,118,1)));
+background: -webkit-linear-gradient(top, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+background: -o-linear-gradient(top, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+background: -ms-linear-gradient(top, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+background: linear-gradient(to bottom, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87a00e', endColorstr='#b5c176', GradientType=0 );
+}
+.dokan-dashboard .dokan-dashboard-content article.dashboard-content-area .dashboard-widget .widget-title {
+background: rgba(135,160,14,1);
+background: -moz-linear-gradient(top, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(135,160,14,1)), color-stop(100%, rgba(181,193,118,1)));
+background: -webkit-linear-gradient(top, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+background: -o-linear-gradient(top, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+background: -ms-linear-gradient(top, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+background: linear-gradient(to bottom, rgba(135,160,14,1) 0%, rgba(181,193,118,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87a00e', endColorstr='#b5c176', GradientType=0 );
+}
+.dokan-dashboard .dokan-dashboard-content article.dashboard-content-area .dashboard-widget.products .pull-right a {
+background: rgba(59,212,153,1);
+background: -moz-linear-gradient(top, rgba(59,212,153,1) 0%, rgba(25,133,25,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(59,212,153,1)), color-stop(100%, rgba(25,133,25,1)));
+background: -webkit-linear-gradient(top, rgba(59,212,153,1) 0%, rgba(25,133,25,1) 100%);
+background: -o-linear-gradient(top, rgba(59,212,153,1) 0%, rgba(25,133,25,1) 100%);
+background: -ms-linear-gradient(top, rgba(59,212,153,1) 0%, rgba(25,133,25,1) 100%);
+background: linear-gradient(to bottom, rgba(59,212,153,1) 0%, rgba(25,133,25,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bd499', endColorstr='#198519', GradientType=0 );
+}
+.menu-search select.form-control1 {
+    color: #ffffff  !important;
+}
+.menu-search input.search-field {
+    color: #ffffff  !important;
+    font-weight: 400 !important;
+}
+.menu-products .shop_cart {
+    color: #ffffff;
+}
+a.cart-contents {
+    color: #ffffff !important;
+}
+.cart-contents span.amount {
+    color: #ffffff !important;
+}
+.menu-search select.form-control1 {
+    background: #2f8969;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.menu-search input.search-field {
+    border-left: 0.5px solid #6e6e6e;
+}
+.navbar-default {
+background: rgba(40,135,100,1);
+background: -moz-linear-gradient(top, rgba(40,135,100,1) 0%, rgba(0,105,0,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(40,135,100,1)), color-stop(100%, rgba(0,105,0,1)));
+background: -webkit-linear-gradient(top, rgba(40,135,100,1) 0%, rgba(0,105,0,1) 100%);
+background: -o-linear-gradient(top, rgba(40,135,100,1) 0%, rgba(0,105,0,1) 100%);
+background: -ms-linear-gradient(top, rgba(40,135,100,1) 0%, rgba(0,105,0,1) 100%);
+background: linear-gradient(to bottom, rgba(40,135,100,1) 0%, rgba(0,105,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#288764', endColorstr='#006900', GradientType=0 );
+}
+.tagcloud > a:hover, nav, .ibid-icon-search, .wpb_button::after, .rotate45, .latest-posts .post-date-day, .latest-posts h3, .latest-tweets h3, .latest-videos h3, .button.solid-button, .top-footer, .form-submit input, .page-template-template-blog .full-width-part .more-link, .full-width-part .more-link, button.vc_btn, .pricing-table.recomended .table-content, .pricing-table .table-content:hover, .pricing-table.Recommended .table-content, .pricing-table.recommended .table-content, .pricing-table.recomended .table-content, .pricing-table .table-content:hover, .block-triangle, .owl-theme .owl-controls .owl-page span, body .vc_btn.vc_btn-blue, body a.vc_btn.vc_btn-blue, body button.vc_btn.vc_btn-blue, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, table.compare-list .add-to-cart td a, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce a.remove:hover, .woocommerce .widget_price_filter .ui-slider .ui-slider-range, .woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li span.current, .widget_social_icons li a:hover, #subscribe > button[type="submit"], .social-sharer > li:hover, .prev-next-post a:hover .rotate45, .masonry_banner.default-skin, .member-footer .social::before, .member-footer .social::after, .subscribe > button[type="submit"], .woocommerce #respond input#submit.alt.disabled, .woocommerce #respond input#submit.alt.disabled:hover, .woocommerce #respond input#submit.alt:disabled, .woocommerce #respond input#submit.alt:disabled:hover, .woocommerce #respond input#submit.alt[disabled]:disabled, .woocommerce #respond input#submit.alt[disabled]:disabled:hover, .woocommerce a.button.alt.disabled, .woocommerce a.button.alt.disabled:hover, .woocommerce a.button.alt:disabled, .woocommerce a.button.alt:disabled:hover, .woocommerce a.button.alt[disabled]:disabled, .woocommerce a.button.alt[disabled]:disabled:hover, .woocommerce button.button.alt.disabled, .woocommerce button.button.alt.disabled:hover, .woocommerce button.button.alt:disabled, .woocommerce button.button.alt:disabled:hover, .woocommerce button.button.alt[disabled]:disabled, .woocommerce button.button.alt[disabled]:disabled:hover, .woocommerce input.button.alt.disabled, .woocommerce input.button.alt.disabled:hover, .woocommerce input.button.alt:disabled, .woocommerce input.button.alt:disabled:hover, .woocommerce input.button.alt[disabled]:disabled, .woocommerce input.button.alt[disabled]:disabled:hover, .no-results input[type="submit"], table.compare-list .add-to-cart td a, .shop_cart, h3#reply-title::after, .newspaper-info, .categories_shortcode .owl-controls .owl-buttons i:hover, .widget-title:after, h2.heading-bottom:after, .wpb_content_element .wpb_accordion_wrapper .wpb_accordion_header.ui-state-active, #primary .main-content ul li:not(.rotate45)::before, .wpcf7-form .wpcf7-submit, .menu-search .btn.btn-primary:hover, .um-register .um-button.um-alt, .btn-register, .modeltheme-modal #loginform input[type="submit"], form#login .register_button, form#login .submit_button, .bottom-components .component a:hover, .bottom-components .component a:hover, .bottom-components .component a:hover, .woocommerce-page .overlay-components .component a:hover, .woocommerce-page .vc_col-md-3 .overlay-components .component a:hover, .woocommerce.single-product .wishlist-container .yith-wcwl-wishlistaddedbrowse.show a, .widget_address_social_icons .social-links a, .hover-components .component:hover, .navbar-default .navbar-toggle .icon-bar, #yith-wcwl-form input[type="submit"], .nav-previous a, .nav-next a, article.dokan-orders-area .dokan-panel-default > .dokan-panel-heading, #signup-modal-content .woocommerce-form-register.register .button[type="submit"], .dokan-dashboard .dokan-dashboard-content article.dashboard-content-area .dashboard-widget .widget-title, .woocommerce-MyAccount-navigation-link > a, .newsletter-footer input.submit:hover, .newsletter-footer input.submit:focus, a.add-wsawl.sa-watchlist-action, a.remove-wsawl.sa-watchlist-action, footer .footer-top .menu .menu-item a::before, .post-password-form input[type="submit"], .wcv-dashboard-navigation li a, .wc_vendors_active form input[type="submit"], .cd-gallery .button-bid a, .mt_products_slider .button-bid a, .categories_shortcode .category, .ibid_shortcode_blog.boxed .post-button a.more-link {
+background: rgba(59,212,153,1);
+background: -moz-linear-gradient(top, rgba(59,212,153,1) 0%, rgba(25,133,25,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(59,212,153,1)), color-stop(100%, rgba(25,133,25,1)));
+background: -webkit-linear-gradient(top, rgba(59,212,153,1) 0%, rgba(25,133,25,1) 100%);
+background: -o-linear-gradient(top, rgba(59,212,153,1) 0%, rgba(25,133,25,1) 100%);
+background: -ms-linear-gradient(top, rgba(59,212,153,1) 0%, rgba(25,133,25,1) 100%);
+background: linear-gradient(to bottom, rgba(59,212,153,1) 0%, rgba(25,133,25,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bd499', endColorstr='#198519', GradientType=0 );
+}

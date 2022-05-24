@@ -1,0 +1,51 @@
+<?php 
+try {
+    session_start();
+    require_once '../../Utilidades/ClienteDAO.php';
+    
+    $Func = new ClienteDAO();
+
+    $page = $_REQUEST['page'];
+
+    $linea = $_REQUEST['linea'];
+
+    $limit = $_REQUEST['rows'];
+
+    $rowsxpag  = $_REQUEST['rows'];
+
+    $sidx = $_REQUEST['sidx'];
+
+    $sord = $_REQUEST['sord'];
+
+    if(!$sidx) $sidx =1;
+
+    $start = $limit*$page - $limit;
+
+    if($start <0){
+        $start = 0;
+    }else{
+        $start = $start + 1;
+        $limit = $limit*$page;
+    }
+    
+    $idEquipo = (int) $_REQUEST['idEquipo'];
+    
+    $filter = new stdClass();
+    $filter->field = ' idEquipo';
+    $filter->operador = '=';
+    $filter->value = " '".$idEquipo."'";
+    $rules[] = $filter;   
+    
+    $resultado = $Func->GetTransaccionesList($start,$limit,$sidx,$sord,$rules);
+
+    if(count($resultado) > 0){
+        if(!$resultado[0]->Success) throw new Exception($resultado[0]->Text, 1);
+    }
+
+    header("Content-type: application/json;charset=utf-8");
+    echo json_encode($resultado);
+} catch (\Throwable $th) {
+    header("HTTP/1.0 404 Not Found");
+    echo $th->getMessage();
+    die();
+}

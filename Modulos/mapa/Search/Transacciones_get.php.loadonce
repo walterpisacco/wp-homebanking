@@ -1,0 +1,65 @@
+<?php 
+try {
+    session_start();
+    /*
+    $_SESSION["idUsuario"] = '';
+    Header ("location: ../../../index.php");
+    exit();
+    */
+    
+    ini_set('display_errors',0 );
+    ini_set('display_startup_errors', 0);
+    error_reporting(E_ALL);
+    
+    require_once '../../Utilidades/ClienteDAO.php';
+    
+    $Func = new ClienteDAO();
+
+    $idEquipo   = (int) $_REQUEST['idEquipo'];
+    $rowsxpag   = (int) $_REQUEST['rows'];
+    
+    $filter = new stdClass();
+    $filter->field = ' idEquipo';
+    $filter->operador = '=';
+    $filter->value = " '".$idEquipo."'";
+    $rules[] = $filter;
+
+    $resultado = $Func->GetTransaccionesList(1,10000,1,'desc',$rules);
+
+    $count = (int)$resultado[0]->Total_Row;
+
+    if ($count > 0 ) {
+        $total_pages = ceil ( $count / $rowsxpag );
+    } else {
+        $total_pages = 0;
+    }
+
+    if ($page > $total_pages) $page=$total_pages;
+
+    $i=0;
+    $responce = new stdClass();
+    $responce->page = 1;
+    $responce->total = $total_pages;
+    $responce->records = $count;
+
+    if ($resultado [0]->Success == 'true') {
+        foreach ( $resultado as $row ) {
+            $responce->rows [$i] ['id'] = $row->Id;
+            $responce->rows [$i] ['cell'] = Array(
+                $row->idTransaccion
+                ,$row->fecha
+                ,$row->operacion            
+                ,$row->monto
+                );
+            $i++;
+        }
+        
+    }
+
+    header("Content-type: application/json;charset=utf-8");
+    echo json_encode($resultado);
+} catch (\Throwable $th) {
+    header("HTTP/1.0 404 Not Found");
+    echo $th->getMessage();
+    die();
+}
